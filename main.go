@@ -3,6 +3,7 @@ package main
 import (
 	"net/http"
 
+	"github.com/diegoalfonsoc18/go-gorm-restapi/db"
 	"github.com/diegoalfonsoc18/go-gorm-restapi/routes"
 	"github.com/gorilla/mux"
 )
@@ -11,7 +12,7 @@ import (
 
 func main() {
 
-	//db.DBConnection()
+	db.DBConnection()
 
 	r := mux.NewRouter()
 
