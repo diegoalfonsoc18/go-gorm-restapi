@@ -6,7 +6,7 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
-var DNS = "host=localhost user=diego182  password=Shadow1827$$ dbname=gorm port=5432"
+var DNS = "host=localhost user=diegoalfonsoc18  password=Shadow1827$$ dbname=gorm port=5432 sslmode=disable"
 var DB *gorm.DB
 
 
